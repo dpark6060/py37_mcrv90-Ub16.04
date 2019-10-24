@@ -1,0 +1,34 @@
+# MSOT-mouse-recon
+
+## Description
+This gear is designed to run reconstrution on a MSOT mouse image.  It requires at least 2.5 gb of memory to run on a 75mb file.  It takes approximately 6 minutes to run. This gear uses a precomputed model matrix with the input data.  
+
+Current model matrix:
+
+`A_mat_t_res_2_200x200_c1530_width20.mat`
+
+#### TODO: Maybe they'll want to be able to change this in the future?
+
+### Inputs
+
+There are two required inputs for this gear:
+
+1. MSOT file
+  - The MSOT file of the data to be converted.  This is a small metadata/header file with information on the actual scan.
+2. bin file
+  - the BIN file of the data to be converted.  This is a larger binary file containing the true image data.
+  
+File names must be identical, save for the extension.
+
+**example: **: `Subject_01.msot` and `Subject_01.bin`
+
+#### TODO: Set file names identical in the gear regardless of input name
+
+### Output:
+
+There is only one output for this gear:  A matlab .mat file
+
+#### TODO: Naming convention for this is currently unknown.  Should check for name conflict potential.
+
+
+

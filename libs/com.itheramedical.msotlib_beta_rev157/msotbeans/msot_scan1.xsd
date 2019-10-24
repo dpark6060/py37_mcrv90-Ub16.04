@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Header_Schema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="Header_Schema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="HARDWARE-DESC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="AMPLIFICATION" type="xs:unsignedByte" />
+        <xs:element name="SAMPLING-FREQUENCY">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AD-RANGE">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="POWER">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TRANSDUCER" type="xs:string" />
+        <xs:element name="GEOMETRY" type="xs:string" />
+        <xs:element name="SETUP-TYPE" type="xs:string" />
+        <xs:element name="FRAME-DESC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EQUAL">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="START" type="xs:decimal" />
+                    <xs:element name="STEP" type="xs:decimal" />
+                    <xs:element name="END" type="xs:decimal" />
+                    <xs:element maxOccurs="unbounded" name="CONSTANT">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="axis-ref" type="xs:unsignedByte" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="axis-ref" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="wavelength-ref" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="PROJECTION">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="VALUE">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:double">
+                            <xs:attribute name="axis-ref" type="xs:unsignedByte" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="wavelength-ref" type="xs:string" use="required" />
+                  <xs:attribute name="number" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MEASUREMENT-DESC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="INITIAL-ENERGY">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VERTICAL-DEPTH">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="REPETITION-RATE">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEMPERATURE">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:unsignedByte">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VERTICAL-STEPS" type="xs:unsignedByte" />
+        <xs:element name="AVERAGES-PER-PROJECTION" type="xs:unsignedByte" />
+        <xs:element name="NUMBER-OF-FRAMES" type="xs:unsignedByte" />
+        <xs:element name="RECORDED-LENGTH" type="xs:unsignedShort" />
+        <xs:element name="PATH-LENGTH-IN-WATER">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:decimal">
+                <xs:attribute name="unit" type="xs:string" use="required" />
+                <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WATER-ABSORPTION-COEFFICIENTS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="WATER-ABSORPTION-COEFFICIENT">
+                <xs:complexType>
+                  <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="coefficient" type="xs:decimal" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AVERAGE-ENERGY-TABLE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="AVRAGE-ENERGY">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:decimal">
+                      <xs:attribute name="unit" type="xs:string" use="required" />
+                      <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+                      <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WAVELENGTHS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="WAVELENGTH">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:unsignedShort">
+                      <xs:attribute name="unit" type="xs:string" use="required" />
+                      <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+                      <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COORDINATE-DEFINITION">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="AXIS">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="number" type="xs:unsignedByte" use="required" />
+                      <xs:attribute name="unit" type="xs:string" use="required" />
+                      <xs:attribute name="unit-modifier" type="xs:string" use="required" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SEQUENCE" type="xs:string" />
+        <xs:element name="PROJECTIONS" />
+      </xs:sequence>
+      <xs:attribute name="LEnergy-normalization" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

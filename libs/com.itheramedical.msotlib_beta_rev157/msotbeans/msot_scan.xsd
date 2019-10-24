@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:import namespace="Header_Schema" />
+  <xsd:element name="DataModelMsotProject">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="FolderName" type="xsd:string" />
+        <xsd:element name="FriendlyName" type="xsd:string" />
+        <xsd:element name="CreationTime" type="xsd:dateTime" />
+        <xsd:element name="Scientist" type="xsd:string" />
+        <xsd:element xmlns:q1="Header_Schema" ref="q1:HARDWARE-DESC" />
+        <xsd:element xmlns:q2="Header_Schema" ref="q2:MEASUREMENT-DESC" />
+        <xsd:element name="ScanNode">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Name" type="xsd:string" />
+              <xsd:element name="Comment" type="xsd:string" />
+              <xsd:element name="zAxisUnit" type="xsd:string" />
+              <xsd:element name="NumberOfSlices" type="xsd:unsignedShort" />
+              <xsd:element name="Wavelengths">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element maxOccurs="unbounded" name="Wavelength">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:unsignedShort">
+                            <xsd:attribute name="unit" type="xsd:string" use="required" />
+                            <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                            <xsd:attribute name="number" type="xsd:unsignedByte" use="required" />
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="TrimSpeedOfSound" type="xsd:byte" />
+              <xsd:element name="ImagingObjectStart" type="xsd:unsignedByte" />
+              <xsd:element name="ImagingObjectLength" type="xsd:unsignedByte" />
+              <xsd:element name="ScanFrames">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element maxOccurs="unbounded" name="DataModelScanFrame">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="Frame">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="Z-POS">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:decimal">
+                                        <xsd:attribute name="axis-ref" type="xsd:unsignedByte" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="TEMPERATURE">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:decimal">
+                                        <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                        <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="WAVELENGTH">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:unsignedShort">
+                                        <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                        <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="POWER">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:decimal">
+                                        <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                        <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="DIODE-READOUT">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:decimal">
+                                        <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                        <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="LASER-ENERGY">
+                                  <xsd:complexType>
+                                    <xsd:simpleContent>
+                                      <xsd:extension base="xsd:decimal">
+                                        <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                        <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                      </xsd:extension>
+                                    </xsd:simpleContent>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="RUN" type="xsd:unsignedByte" />
+                                <xsd:element name="REPETITION" type="xsd:unsignedByte" />
+                              </xsd:sequence>
+                              <xsd:attribute name="timestamp" type="xsd:unsignedLong" use="required" />
+                            </xsd:complexType>
+                          </xsd:element>
+                          <xsd:element name="IDOffset" type="xsd:unsignedShort" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="ReconNodes">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="DataModelNewReconstructionNode">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Name" type="xsd:string" />
+                    <xsd:element name="Comment" type="xsd:string" />
+                    <xsd:element name="CreationTime" type="xsd:dateTime" />
+                    <xsd:element name="GUID" type="xsd:string" />
+                    <xsd:element name="Method" type="xsd:string" />
+                    <xsd:element name="Resolution" type="xsd:unsignedShort" />
+                    <xsd:element name="Projections" type="xsd:unsignedShort" />
+                    <xsd:element name="Roi" type="xsd:decimal" />
+                    <xsd:element name="RoiLow" type="xsd:decimal" />
+                    <xsd:element name="RoiHigh" type="xsd:decimal" />
+                    <xsd:element name="FilterLow" type="xsd:decimal" />
+                    <xsd:element name="FilterHigh" type="xsd:decimal" />
+                    <xsd:element name="TrimSpeedOfSound" type="xsd:decimal" />
+                    <xsd:element name="NumOfFrames" type="xsd:unsignedByte" />
+                    <xsd:element name="FrameThickness" type="xsd:unsignedByte" />
+                    <xsd:element name="ReconFrames">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element maxOccurs="unbounded" name="DataModelReconstructionFrame">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="ScanFramesID">
+                                  <xsd:complexType>
+                                    <xsd:sequence>
+                                      <xsd:element name="int" type="xsd:unsignedShort" />
+                                    </xsd:sequence>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="IDOffset" type="xsd:unsignedShort" />
+                                <xsd:element name="zOffset" type="xsd:unsignedByte" />
+                                <xsd:element name="HasErrors" type="xsd:boolean" />
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="MspNodes">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element maxOccurs="unbounded" name="DataModelNewMspNode">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="FolderName" type="xsd:string" />
+                    <xsd:element name="FriendlyName" type="xsd:string" />
+                    <xsd:element name="CreationTime" type="xsd:dateTime" />
+                    <xsd:element name="Name" type="xsd:string" />
+                    <xsd:element name="Comment" type="xsd:string" />
+                    <xsd:element name="GUID" type="xsd:string" />
+                    <xsd:element name="ReconGUID" type="xsd:string" />
+                    <xsd:element name="Method" type="xsd:string" />
+                    <xsd:element name="DefaultBG">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:unsignedShort">
+                            <xsd:attribute name="unit" type="xsd:string" use="required" />
+                            <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                            <xsd:attribute name="number" type="xsd:unsignedByte" use="required" />
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="IcaComponents" type="xsd:unsignedByte" />
+                    <xsd:element name="RelatedWavelengths">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element maxOccurs="unbounded" name="Wavelength">
+                            <xsd:complexType>
+                              <xsd:simpleContent>
+                                <xsd:extension base="xsd:unsignedShort">
+                                  <xsd:attribute name="unit" type="xsd:string" use="required" />
+                                  <xsd:attribute name="unit-modifier" type="xsd:string" use="required" />
+                                  <xsd:attribute name="number" type="xsd:unsignedByte" use="required" />
+                                </xsd:extension>
+                              </xsd:simpleContent>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="InputSpectra">
+                      <xsd:complexType>
+                        <xsd:sequence minOccurs="0">
+                          <xsd:element maxOccurs="unbounded" name="string" type="xsd:string" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="SlicesFrame">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element maxOccurs="unbounded" name="MspSliceFrame">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="HasErrors" type="xsd:boolean" />
+                                <xsd:element name="ReconFrameID">
+                                  <xsd:complexType>
+                                    <xsd:sequence>
+                                      <xsd:element maxOccurs="unbounded" name="int" type="xsd:unsignedShort" />
+                                    </xsd:sequence>
+                                  </xsd:complexType>
+                                </xsd:element>
+                                <xsd:element name="ComponentList">
+                                  <xsd:complexType>
+                                    <xsd:sequence>
+                                      <xsd:element maxOccurs="unbounded" name="MspSliceComponent">
+                                        <xsd:complexType>
+                                          <xsd:sequence>
+                                            <xsd:element name="IDOffset" type="xsd:unsignedShort" />
+                                            <xsd:element name="ComponName" type="xsd:string" />
+                                            <xsd:element name="ComponRef" type="xsd:unsignedByte" />
+                                            <xsd:element name="invert" type="xsd:boolean" />
+                                            <xsd:element name="SpectraName" type="xsd:string" />
+                                          </xsd:sequence>
+                                        </xsd:complexType>
+                                      </xsd:element>
+                                    </xsd:sequence>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="RoiNodes" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

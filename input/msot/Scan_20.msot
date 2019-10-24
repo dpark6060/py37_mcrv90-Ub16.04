@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataModelMsotProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FolderName>Scan_20</FolderName>
+  <FriendlyName>Scan_20</FriendlyName>
+  <CreationTime>2015-08-20T14:55:10.937399+02:00</CreationTime>
+  <Scientist>inVision256</Scientist>
+  <HARDWARE-DESC xmlns="Header_Schema">
+    <AMPLIFICATION>0</AMPLIFICATION>
+    <SAMPLING-FREQUENCY unit="Hz" unit-modifier="M">40</SAMPLING-FREQUENCY>
+    <AD-RANGE unit="V" unit-modifier="none">0</AD-RANGE>
+    <POWER unit="J" unit-modifier="none">0</POWER>
+    <TRANSDUCER>msot2</TRANSDUCER>
+    <GEOMETRY>cylindrical</GEOMETRY>
+    <SETUP-TYPE>msot2</SETUP-TYPE>
+    <AXIAL-OFFSET>0</AXIAL-OFFSET>
+    <LIGHTSPOT-SIZE>0</LIGHTSPOT-SIZE>
+    <COUPLANT-SPEED-OF-SOUND>0</COUPLANT-SPEED-OF-SOUND>
+    <COUPLANT-CENTER-OF-ROTATION>0</COUPLANT-CENTER-OF-ROTATION>
+    <MIN-COUPLANT-CENTER-OF-ROTATION-OFFSET>0</MIN-COUPLANT-CENTER-OF-ROTATION-OFFSET>
+    <MAX-COUPLANT-CENTER-OF-ROTATION-OFFSET>0</MAX-COUPLANT-CENTER-OF-ROTATION-OFFSET>
+    <COUPLANT-CURVATURE-RADIUS>0</COUPLANT-CURVATURE-RADIUS>
+    <FRAME-DESC>
+      <EQUAL axis-ref="1" wavelength-ref="1" number="0">
+        <START>-0.7853981633</START>
+        <STEP>0.0184799567858</STEP>
+        <END>3.926990817079</END>
+        <CONSTANT axis-ref="2">0.0405</CONSTANT>
+        <CONSTANT axis-ref="3">0</CONSTANT>
+      </EQUAL>
+    </FRAME-DESC>
+  </HARDWARE-DESC>
+  <MEASUREMENT-DESC LEnergy-normalization="PerPulse" xmlns="Header_Schema">
+    <INITIAL-ENERGY unit="J" unit-modifier="none">0</INITIAL-ENERGY>
+    <VERTICAL-DEPTH unit="m" unit-modifier="m">2</VERTICAL-DEPTH>
+    <REPETITION-RATE unit="Hz" unit-modifier="none">10</REPETITION-RATE>
+    <TEMPERATURE unit="C" unit-modifier="none">0</TEMPERATURE>
+    <VERTICAL-STEPS>1</VERTICAL-STEPS>
+    <AVERAGES-PER-PROJECTION>30</AVERAGES-PER-PROJECTION>
+    <NUMBER-OF-FRAMES>30</NUMBER-OF-FRAMES>
+    <RECORDED-LENGTH>2030</RECORDED-LENGTH>
+    <PATH-LENGTH-IN-WATER unit="m" unit-modifier="c">0.03</PATH-LENGTH-IN-WATER>
+    <WATER-ABSORPTION-COEFFICIENTS>
+      <WATER-ABSORPTION-COEFFICIENT number="1" coefficient="0.66311570937440134" />
+      <WATER-ABSORPTION-COEFFICIENT number="2" coefficient="0.859419112570984" />
+      <WATER-ABSORPTION-COEFFICIENT number="3" coefficient="1.2730558031963441" />
+      <WATER-ABSORPTION-COEFFICIENT number="4" coefficient="1.9719217908544762" />
+      <WATER-ABSORPTION-COEFFICIENT number="5" coefficient="2.7817264566742104" />
+      <WATER-ABSORPTION-COEFFICIENT number="6" coefficient="2.8528181004428523" />
+      <WATER-ABSORPTION-COEFFICIENT number="7" coefficient="2.86020962211454" />
+      <WATER-ABSORPTION-COEFFICIENT number="8" coefficient="2.8244307677438618" />
+      <WATER-ABSORPTION-COEFFICIENT number="9" coefficient="2.69" />
+      <WATER-ABSORPTION-COEFFICIENT number="10" coefficient="2.4681172986870488" />
+      <WATER-ABSORPTION-COEFFICIENT number="11" coefficient="2.25" />
+      <WATER-ABSORPTION-COEFFICIENT number="12" coefficient="2.1902180879524886" />
+      <WATER-ABSORPTION-COEFFICIENT number="13" coefficient="2.3426361397256539" />
+      <WATER-ABSORPTION-COEFFICIENT number="14" coefficient="3.2216495822403326" />
+      <WATER-ABSORPTION-COEFFICIENT number="15" coefficient="3.9410502840891124" />
+      <WATER-ABSORPTION-COEFFICIENT number="16" coefficient="4.2013625594816251" />
+      <WATER-ABSORPTION-COEFFICIENT number="17" coefficient="4.6441387703483086" />
+      <WATER-ABSORPTION-COEFFICIENT number="18" coefficient="4.7691792259004764" />
+      <WATER-ABSORPTION-COEFFICIENT number="19" coefficient="5.2830172409789631" />
+      <WATER-ABSORPTION-COEFFICIENT number="20" coefficient="5.8471237306141006" />
+      <WATER-ABSORPTION-COEFFICIENT number="21" coefficient="6.40296514024696" />
+    </WATER-ABSORPTION-COEFFICIENTS>
+    <AVERAGE-ENERGY-TABLE>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="1">77.438474449056358</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="2">89.831632413283614</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="3">96.565564983007462</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="4">100.12634702013703</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="5">96.5694492244402</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="6">94.941906850723655</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="7">93.5799947248539</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="8">93.665748702452717</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="9">94.8876217962449</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="10">94.78537869943321</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="11">94.8673084375186</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="12">93.702882931526418</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="13">92.182362610415908</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="14">89.476790176857591</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="15">87.822335296306164</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="16">85.932642926539273</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="17">83.861851681436463</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="18">84.909279997403289</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="19">85.5603016442857</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="20">82.356686474352387</AVRAGE-ENERGY>
+      <AVRAGE-ENERGY unit="J" unit-modifier="m" number="21">81.782927686268636</AVRAGE-ENERGY>
+    </AVERAGE-ENERGY-TABLE>
+    <WAVELENGTHS>
+      <WAVELENGTH unit="m" unit-modifier="n" number="1">700</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="2">710</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="3">720</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="4">730</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="5">740</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="6">750</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="7">760</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="8">770</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="9">780</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="10">790</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="11">800</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="12">810</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="13">820</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="14">830</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="15">840</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="16">850</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="17">860</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="18">870</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="19">880</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="20">890</WAVELENGTH>
+      <WAVELENGTH unit="m" unit-modifier="n" number="21">900</WAVELENGTH>
+    </WAVELENGTHS>
+    <COORDINATE-DEFINITION>
+      <AXIS number="1" unit="rad" unit-modifier="none">phi</AXIS>
+      <AXIS number="2" unit="m" unit-modifier="none">r</AXIS>
+      <AXIS number="3" unit="m" unit-modifier="m">z</AXIS>
+    </COORDINATE-DEFINITION>
+    <SEQUENCE>by-wavelength</SEQUENCE>
+    <PROJECTIONS />
+  </MEASUREMENT-DESC>
+  <ScanNode>
+    <Name>m1_brain_20%</Name>
+    <Comment />
+    <zAxisUnit>mm</zAxisUnit>
+    <NumberOfSlices>71</NumberOfSlices>
+    <Wavelengths>
+      <Wavelength unit="m" unit-modifier="n" number="1">700</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="2">710</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="3">720</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="4">730</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="5">740</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="6">750</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="7">760</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="8">770</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="9">780</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="10">790</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="11">800</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="12">810</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="13">820</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="14">830</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="15">840</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="16">850</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="17">860</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="18">870</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="19">880</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="20">890</Wavelength>
+      <Wavelength unit="m" unit-modifier="n" number="21">900</Wavelength>
+    </Wavelengths>
+    <TrimSpeedOfSound>8</TrimSpeedOfSound>
+    <CouplantCorrection>false</CouplantCorrection>
+    <TrimCouplantCenterOfRotation>0</TrimCouplantCenterOfRotation>
+    <ImagingObjectStart>201</ImagingObjectStart>
+    <ImagingObjectLength>130</ImagingObjectLength>
+    <DeviceSN>1-12-04</DeviceSN>
+    <TransducerSN>Undefined</TransducerSN>
+    <DAQ_MACaddress>00-11-1c-00-e1-7c </DAQ_MACaddress>
+    <SW_Version>3.6.0.119</SW_Version>
+    <ScanFrames>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793169617436">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.974999999999994</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">700</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1207.8702560994152</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2700.4</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">75.55863369733305</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>0</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793199599151">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.980000000000004</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">710</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1479.2669003525484</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3275.4</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">92.5250647483742</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>1</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793229620868">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.980000000000004</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">720</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1596.7441739079286</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3586.3666666666668</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">99.806199623567551</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>2</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793259712589">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.985</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">730</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1575.3379543528144</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3789.3666666666668</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">98.499364082628233</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>3</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793289544296">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.995000000000005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">740</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1509.4100131408779</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3434.0666666666666</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.340665874598</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>4</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793319666018">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.995000000000005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">750</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1545.7189964002357</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3416.7</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">96.604366270250466</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>5</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793349677735">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.989999999999995</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">760</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1472.5346144260059</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3296.4333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">92.039461161041345</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>6</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793379719453">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">770</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1516.4671619937105</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3290.8</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.796526912676413</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>7</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793409531158">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">780</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1537.605909334739</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3267.2333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">96.092280907333176</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>8</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793439632880">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">790</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1560.4789800351023</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3313.0333333333333</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">97.553925384669341</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>9</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793469604594">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">800</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1479.8501029763488</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3175.8333333333335</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">92.4940104078155</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>10</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793499646313">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">810</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1489.8964116353777</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3127.6666666666665</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.131454669041858</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>11</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793529608026">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">820</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1489.6787414376804</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3048.0333333333333</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.1193035474586</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>12</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793559579741">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">830</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1382.1973225933139</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2928.5333333333333</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">85.654515609524012</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>13</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793589601458">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">840</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1412.981750695857</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2954.5</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">86.504716445864688</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>14</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793619563172">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">850</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1402.4760203356327</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2901.6</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">84.765337437756187</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>15</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793649574888">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.995000000000005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">860</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1390.5225287284925</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2849.8333333333335</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">84.031946885020389</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>16</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793679696611">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.989999999999995</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">870</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1340.120640721618</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2711.8666666666668</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">83.766860492079857</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>17</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793709608322">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.989999999999995</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">880</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1433.255864234776</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2754.0333333333333</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">86.589057935895156</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>18</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793739620038">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">33.989999999999995</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">890</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1320.5780596936122</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2712.4333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">82.533335689773168</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>19</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793769641756">
+          <Z-POS axis-ref="3">9.5300000000000011</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.005</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">900</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1261.7858508181864</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2542.8333333333335</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">78.88703647757454</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>20</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793809664045">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.02</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">700</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1241.3057761028892</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2776.6333333333332</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">77.767718406650729</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>21</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793839665761">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.03</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">710</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1469.352420108791</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3256.2333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">91.915224737629885</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>22</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793869637475">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.035</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">720</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1494.8297708994569</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3352.7666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.4695722299293</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>23</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793899679193">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.04</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">730</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1608.8316661777142</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3865.5</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">100.59042370752465</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>24</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793929620906">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.04</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">740</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1526.0339675831692</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3473.9333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">95.383450989620471</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>25</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793959732628">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.045</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">750</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1468.8014080379648</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3258.4</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">91.808251812865691</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>26</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756793989874352">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.04</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">760</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1496.1192225139548</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3350.1</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.506468263472016</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>27</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794019916070">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.04</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">770</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1551.2044544564408</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3358.6</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">96.954068070718492</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>28</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794049557766">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.04</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">780</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1520.0018624599043</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3231.5666666666666</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">95.028049375310573</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>29</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794079549481">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.045</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">790</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1536.1525329009098</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3266.1</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">96.031735025312912</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>30</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794109581199">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.05</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">800</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1522.704732375794</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3267.1333333333332</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">95.176074014335143</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>31</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794139602916">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.05</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">810</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1502.7819750059264</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3153.6</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.960900178183977</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>32</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794169624633">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.05</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">820</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1444.8158415485054</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2955.1666666666665</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">90.306637001158322</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>33</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794199646350">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.05</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">830</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1434.7045812422048</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3057.5</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">89.680462197048215</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>34</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794229608064">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.05</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">840</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1398.3723487574855</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2985.6</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">87.430482074860237</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>35</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794259719786">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.06</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">850</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1341.1283877503922</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2867.7333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">83.725630468167083</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>36</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794289641498">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.065</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">860</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1364.8339047569939</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2837.7666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">83.665064374215092</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>37</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794319593211">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.075</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">870</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1378.1379148633555</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2784.8333333333335</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">86.138638986995019</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>38</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794349584926">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">880</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1389.1289276378259</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2757.1</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">86.689811534676963</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>39</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794379716650">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">890</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1263.7770970441386</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2599.7333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">78.9983048465628</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>40</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794409568357">
+          <Z-POS axis-ref="3">9.9900000000000091</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">900</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1301.9469564532124</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2623.6666666666665</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">81.3945930249853</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>41</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794449690652">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">700</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1207.97725504599</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2706.4666666666667</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">75.745550918248952</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>42</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794479692368">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">710</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1465.39046512453</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3248.0666666666666</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">91.653536071972539</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>43</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794509814091">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.085</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">720</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1580.4602489756455</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3548.3</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">98.783409395845865</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>44</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794539645797">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">730</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1580.2663522597479</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3800.2666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">98.797770378078226</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>45</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794569657514">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">740</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1491.1982755485044</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3390.8666666666668</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.2045576036878</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>46</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794599809238">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">750</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1538.4565663324954</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3402.2333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">96.165489377834675</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>47</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794629740950">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">760</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1507.9528684341572</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3377</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.2403226109976</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>48</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794659682663">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">770</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1501.7366611914333</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3262</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.88310735860091</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>49</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794689714381">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">780</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1515.4597473286444</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3221.2666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.7216308401768</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>50</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794719806102">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">790</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1578.5387901399342</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3347.0333333333333</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">98.656932540689851</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>51</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794749797817">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.099999999999994</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">800</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1516.2862617379005</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3253.7333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.782498863236256</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>52</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794779639524">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.1</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">810</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1500.6074126585513</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3148.7666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.805529351947811</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>53</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794809681242">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.1</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">820</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1488.4653556738867</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3045.1666666666665</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">93.033726297988338</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>54</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794839632956">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.105000000000004</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">830</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1415.1594245517767</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3018.1333333333332</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">88.447449254482834</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>55</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794869754678">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.105000000000004</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">840</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1407.640400053087</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2984.4333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">87.398011297143128</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>56</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794899656389">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.105000000000004</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">850</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1456.1754509953109</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2949.7333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">86.244800635938233</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>57</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794929788112">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.1</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">860</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1381.7630489060323</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2899.2666666666669</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">85.533704221923188</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>58</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794959819830">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.1</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">870</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1422.2339456527445</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2700.9333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">83.414149573894107</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>59</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756794989671537">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.095</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">880</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1410.6546476098144</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2683.3</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">84.259027016404318</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>60</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795019673253">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.085</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">890</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1366.5233735702748</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2692.9666666666667</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">81.922555670906362</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>61</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795049814977">
+          <Z-POS axis-ref="3">10.5</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">900</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1345.6333254723238</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2624.4</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">81.417864666261124</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>62</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795089727260">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">700</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1246.6025201386783</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">2783.7</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">77.9636038536058</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>63</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795119738977">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">710</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1486.8341016459356</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3289.0666666666666</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">92.955451937671313</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>64</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795149670689">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">720</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1553.9934892766448</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3490.2333333333331</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">97.204661892140237</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>65</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795179682405">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">730</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1588.8558448250335</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3818.9333333333334</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">99.3082954852022</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>66</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795209654120">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.09</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">740</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1505.2331116792773</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3424.6666666666665</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.091525580687559</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>67</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795239685837">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">750</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1533.9986602685256</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3392.8333333333335</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">95.878863516419685</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>68</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795269797560">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">760</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1439.231111724873</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3220.6333333333332</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">89.960461267272962</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>69</IDOffset>
+      </DataModelScanFrame>
+      <DataModelScanFrame>
+        <Frame timestamp="635756795299809276">
+          <Z-POS axis-ref="3">11</Z-POS>
+          <X-POS axis-ref="1">3</X-POS>
+          <Y-POS axis-ref="2">2</Y-POS>
+          <TEMPERATURE unit="C" unit-modifier="none">34.08</TEMPERATURE>
+          <WAVELENGTH unit="m" unit-modifier="n">770</WAVELENGTH>
+          <POWER unit="J" unit-modifier="m">1505.720152177099</POWER>
+          <DIODE-READOUT unit="V" unit-modifier="none">3269.6333333333332</DIODE-READOUT>
+          <LASER-ENERGY unit="J" unit-modifier="m">94.124497812059417</LASER-ENERGY>
+          <RUN>0</RUN>
+          <REPETITION>1</REPETITION>
+        </Frame>
+        <IDOffset>70</IDOffset>
+      </DataModelScanFrame>
+    </ScanFrames>
+  </ScanNode>
+  <ReconNodes />
+  <MspNodes />
+  <RoiNodes />
+</DataModelMsotProject>
